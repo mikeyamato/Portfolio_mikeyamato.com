@@ -1,0 +1,18 @@
+/* header */
+
+.top-image-text {
+	font-size: 5em;
+  letter-spacing: 0.05em;
+  line-height: 2em;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  z-index: 2;
+  transform: translateX(-50%);
+}
+
+.top-image {
+	width: 100vw;
+}
