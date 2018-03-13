@@ -8,9 +8,9 @@ class Landing extends Component {
 		return (
 			<div>
 				<TopImage />
-				<Divider horizontal>Portfolio</Divider>
+				<Divider horizontal>portfolio</Divider>
 				<Portfolio />
-				<Divider horizontal>Contact</Divider>
+				<Divider horizontal>contact</Divider>
 			</div>
 		);
 	}

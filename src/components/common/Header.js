@@ -4,7 +4,8 @@ import { Menu } from 'semantic-ui-react'
 export default class Header extends Component {
   state = {}
 
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+	handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+	
 
   render() {
     const { activeItem } = this.state
@@ -16,27 +17,33 @@ export default class Header extends Component {
         </Menu.Item> */}
 
         <Menu.Item
-          name='features'
-          active={activeItem === 'features'}
+          name='home'
+          active={activeItem === 'home'}
           onClick={this.handleItemClick}
         >
-          Features
+					<a href='#home'>
+          Home
+					</a>
         </Menu.Item>
 
         <Menu.Item
-          name='testimonials'
-          active={activeItem === 'testimonials'}
+          name='portfolio'
+          active={activeItem === 'portfolio'}
           onClick={this.handleItemClick}
         >
-          Testimonials
+					<a href='#portfolio'>
+          Portfolio
+					</a>
         </Menu.Item>
 
         <Menu.Item
-          name='sign-in'
-          active={activeItem === 'sign-in'}
+          name='contact'
+          active={activeItem === 'contact'}
           onClick={this.handleItemClick}
         >
-          Sign-in
+					<a href='#contact'>
+          Contact
+					</a>
         </Menu.Item>
       </Menu>
     )
