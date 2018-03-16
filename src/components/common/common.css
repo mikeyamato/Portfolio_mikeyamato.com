@@ -2,4 +2,11 @@
 
 
 /* footer */
+.footer-container {
+	background-color: black;
+}
+
+.footer-text {
+	color: white;
+}
 

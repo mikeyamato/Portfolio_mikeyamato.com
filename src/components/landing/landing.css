@@ -1,7 +1,7 @@
-/* header */
+/* about */
 
-.top-image-text {
-	font-size: 5em;
+.about-image-text {
+	font-size: 25em;
   letter-spacing: 0.05em;
   line-height: 2em;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
@@ -13,6 +13,52 @@
   transform: translateX(-50%);
 }
 
-.top-image {
-	width: 100vw;
+.about-text {
+	font-size: 3em;
+  letter-spacing: 0.05em;
+  line-height: 2em;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  color: white;
+  /* position: absolute; */
+  /* top: 30%; */
+  /* left: 50%; */
+  /* z-index: 2; */
+  /* transform: translateX(-50%); */
+}
+
+.about-image {
+  background-image: url('//i.imgur.com/4o9FSOP.jpg') !important;
+  background-size: cover !important;
+  background-position: center;
+	/* width: 100vw; */
+}
+
+/* portfolio */
+
+.portfolio-image {
+  background-image: url('//i.imgur.com/hukU4vp.jpg') !important;
+  background-size: cover !important;
+  background-position: center;
+}
+
+.portfolio-grid {
+
+}
+
+.portfolio-copy {
+  /* z-index: 2; */
+}
+
+/* contact */
+
+.contact-image {
+  background-image: url('//i.imgur.com/ki00jwH.jpg') !important;
+  background-size: cover !important;
+  background-position: center;
+}
+
+/* parallax */
+
+.parallax-image {
+  width: 100vw;
 }
