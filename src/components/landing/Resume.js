@@ -9,7 +9,7 @@ const Resume = () => {
 		trigger={<a href='//drive.google.com/uc?export=download&id=1uexZqg5XLhj4Ewp_M7S7pbSyNmypdMJr'>Curriculum vitae</a>}
 		content='Worth downloading 😊'
 		inverted
-		position='right center'
+		position='top center'
 		/>
 	);
 }

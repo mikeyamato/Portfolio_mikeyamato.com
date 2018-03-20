@@ -3,12 +3,6 @@ import './common.css';
 
 import {
   Segment,
-  Container,
-  Grid,
-  Header,
-  List,
-  Visibility,
-  Transition
 } from 'semantic-ui-react';
 
 
@@ -19,10 +13,8 @@ class Footer extends Component {
 
 
 
-			<Segment inverted className='footer-container'>
-				<Container>
+			<Segment attached inverted className='footer-container'>
 				<p className='footer-text'>© 2018 Mike Yamato</p>
-				</Container>
 			</Segment>
 		);
 	}
@@ -30,8 +22,3 @@ class Footer extends Component {
 
 export default Footer;
 
-// <Segment inverted className='footer-container'>
-//				<Container>
-//				<p className='footer-text'>© 2018 Mike Yamato</p>
-				// </Container>
-			// </Segment>
