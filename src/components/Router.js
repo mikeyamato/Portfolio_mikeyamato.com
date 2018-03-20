@@ -12,7 +12,7 @@ class Router extends Component {
 
 		return (
 			<BrowserRouter>
-				<div>
+				<div className='router'>
 					<Header />
 					<Route path='/' component={Landing} />
 					<Footer />
