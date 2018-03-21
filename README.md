@@ -10,3 +10,6 @@
 ## Code Explaination
 - Portfolio built using React
 - 100% frontend
+
+## To Start dev build
+- `npm start`
