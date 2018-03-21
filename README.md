@@ -13,3 +13,6 @@
 
 ## To Start dev build
 - `npm start`
+
+## To Create a Production Build
+- `yarn build`
