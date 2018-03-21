@@ -147,8 +147,8 @@ class Contact extends Component {
 			{/* mobile screens */}
 			<Responsive maxWidth={650}>
 			<Grid>
-				<Grid.Column width={4} />
-				<Grid.Column width={8} className='contact-grid'>
+				<Grid.Column width={2} />
+				<Grid.Column width={12} className='contact-grid'>
 				<ScrollableAnchor id={'contact'}>
 				<Message>
 					<List animated selection>
@@ -204,7 +204,7 @@ class Contact extends Component {
 				</Message>
 				</ScrollableAnchor>
 				</Grid.Column>
-				<Grid.Column width={4} />
+				<Grid.Column width={2} />
 			</Grid>
 			</Responsive>
 			</Parallax>

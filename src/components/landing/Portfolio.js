@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Tab, Image, Segment } from 'semantic-ui-react';
+import { Responsive, Grid, Tab, Image, Segment } from 'semantic-ui-react';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import { Parallax } from 'react-parallax';
 import './landing.css';
@@ -72,6 +72,8 @@ class Portfolio extends Component {
 				bgImageAlt="train"
 				strength={200}
 			>
+			{/* computer screens */}
+			<Responsive minWidth={701}>
 			<Grid>
 	 			<Grid.Column width={3} />
 	 			<Grid.Column width={10} className='portfolio-grid'>
@@ -87,6 +89,26 @@ class Portfolio extends Component {
 	 			<Grid.Column width={3} />
 	 		</Grid>
 			<div style={{ height: 'auto' }} />
+			</Responsive>
+
+			{/* mobile screens */}
+			<Responsive maxWidth={700}>
+			<Grid>
+	 			<Grid.Column width={1} />
+	 			<Grid.Column width={14} className='portfolio-grid'>
+				<Segment secondary>
+					<ScrollableAnchor id={'portfolio'}>
+						<Tab 
+							menu={{ fluid: true, vertical: true, tabular: 'right' }} 
+							panes={panes} 
+						/>
+					</ScrollableAnchor>
+				</Segment>
+				</Grid.Column>
+	 			<Grid.Column width={1} />
+	 		</Grid>
+			<div style={{ height: 'auto' }} />
+			</Responsive>
 			</Parallax>
 		);
 	}
