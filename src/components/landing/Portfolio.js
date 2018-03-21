@@ -101,6 +101,7 @@ class Portfolio extends Component {
 						<Tab 
 							menu={{ fluid: true, vertical: true, tabular: 'right' }} 
 							panes={panes} 
+							grid={{ paneWidth: 10, tabWidth: 6 }}
 						/>
 					</ScrollableAnchor>
 				</Segment>

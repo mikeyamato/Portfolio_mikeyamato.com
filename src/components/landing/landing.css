@@ -55,7 +55,7 @@ body {
 }
 
 .portfolio-img-argo {
-  width: 25%;
+  max-width: 40%;
   margin: auto;
 }
 
