@@ -57,7 +57,7 @@ class Contact extends Component {
 						<List.Item>
 							<Icon name='github' size='big' />
 							<List.Content className='contact-text' verticalAlign='middle'>
-								<a href='//github.com/mikeyamato' target='_blank' rel='noopener noreferrer'>Github</a>
+								<a href='//github.com/mikeyamato' target='_blank' rel='noopener noreferrer'>GitHub</a>
 							</List.Content>
 						</List.Item>
 						<List.Item>

@@ -14,7 +14,7 @@ class Footer extends Component {
 
 
 			<Segment attached inverted className='footer-container'>
-				<p className='footer-text'>© 2018 Mike Yamato</p>
+				<p className='footer-text'>© 2018 Shinsuke Yamato</p>
 			</Segment>
 		);
 	}
